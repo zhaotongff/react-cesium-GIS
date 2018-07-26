@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  float:right;
+  margin-top: -50px;
+}
+img{
+  animation: App-logo-spin infinite 20s linear;
+  margin-top:90px;
+  height: 200px;
+
+}
+.App-logo-name{
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  font:800 24px/80px "simsun";
+}
+.welcome{
+  position: absolute;
+  top: 74px;
+  right: 10px;
+}
+.App-header {
+  background-color: skyblue;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/****  内容样式Start ****/
+#box{
+  width:100%;
+  height:500px;
+
+ /* background-color: #0b97c4;*/
+
+}
+
+/* 内容左边样式 */
+#box-left{
+  float:left;
+  width: 200px;
+  height:500px;
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+  font: 700 24px/50px "simsun";
+}
+
+
+li .a, .dropbtn
+{
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+
+li .a:hover
+{
+  background-color:#111;
+}
+
+.dropdown
+{
+  display:block;
+}
+
+.dropdown-content
+{
+  display: none;
+  background-color:#f9f9f9;
+  min-width:160px;
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+/*点击显示Start*/
+.funStyle{
+  display: block;
+}
+.otherStyle{
+  display: block;
+}
+/*点击显示End*/
+
+.dropdown-content .a
+{
+  color:black;
+  text-decoration:none;
+  display:block;
+}
+
+.dropdown-content .a:hover {
+  background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content
+{
+  display:block;
+}
+
+
+#box-left li span {
+  display: block;
+  font: 700 15px/40px "simsun";
+}
+
+/*内容右边样式*/
+#box-right{
+  overflow: hidden;
+  height:500px;
+
+  background-color: red;
+    position:relative;
+
+}
+.text{
+  color:white;
+  font:700 15px/40px "simsun";
+  text-align: left;
+}
+/****  内容样式End ****/
+
+/****  Footer样式Start ****/
+footer{
+  width:100%;
+  height:50px;
+  margin-bottom: 0px;
+  color: white;
+  background-color:skyblue ;
+  text-align: center;
+  font:700 20px/70px "simsun";
+}
+/****  Footer样式End ****/
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/**** Home组件上的样式 ****/
+/*内容中间样式*/
+.home-main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.home-middle{
+  position: relative;
+  width: 100%;
+  height:500px;
+  margin-right: 200px;
+  background-color: darkblue;
+ /* background: url("logo.svg") no-repeat;*/
+}
+.home-middle>img{
+  margin-right: 200px;
+}
+/**登录注册样式**/
+.home-middle-right{
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+.login{
+  width:44px;
+  height:20px;
+  color:white;
+  background-color: #6e6964;
+  border:2px solid #6e6964;
+}
+/*输入框样式*/
+.home-submit{
+  display: none;
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  top: 96px;
+  left: 50%;
+  transform: translateX(-75%);
+
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.home-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 500px;
+  max-height: 500px;
+  background-color: blueviolet;
+}
+
+.home-field {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.home-field .home-field-name {
+  display: flex;
+  flex-basis: 100px;
+  font-size: 14px;
+}
+
+.home-field .home-field-input {
+  display: flex;
+  flex: 1;
+}
+
+.home-field-input input{
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+  flex: 1;
+}
+
+.home-field-input textarea {
+  height: 100px;
+}
+
+.home-field-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-field-button button {
+  padding: 5px 10px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: #00a3cf;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.home-field-button button:active {
+  background: #13c1f1;
+}
+.cesium-credit-image img{
+  display: none;
+}
+
+#toolbar {
+  background: rgba(42, 42, 42, 0.8);
+  padding: 4px;
+  border-radius: 4px;
+}
+#toolbar input {
+  vertical-align: middle;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+#toolbar .header {
+  font-weight: bold;
+}
+/*
+.cesium-widget{
+    width:592px;
+
+}*/
