@@ -6,8 +6,6 @@ import Viewer from "cesium/Source/Widgets/Viewer/Viewer";
 
 import SampledPositionProperty from 'cesium/Source/DataSources/SampledPositionProperty'
 import PolylineGlowMaterialProperty from 'cesium/Source/DataSources/PolylineGlowMaterialProperty'
-
-
 import Cartesian3 from 'cesium/Source/Core/Cartesian3'
 import Color from 'cesium/Source/Core/Color'
 import Transforms from 'cesium/Source/Core/Transforms'
@@ -232,7 +230,7 @@ render(){
 			</div>
 		</div>
     );
-}
+ }
 }
 
 export default FTraj
